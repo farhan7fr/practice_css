@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Quicksand_Book_webfont;
+	src: url("fonts/Quicksand_Book_webfont.eot") format("eot"),
+	     url("fonts/Quicksand_Book_webfont.woff") format("woff"),
+	     url("fonts/Quicksand_Book_webfont.ttf") format("truetype"),
+	     url("fonts/Quicksand_Book_webfont.svg") format("svg");}
+body {
+	font-family: Quicksand_Book_webfont;
+	background-color: #665544;
+	text-align: center;}
+.nav, .feature, .footer, .article {
+	background-color: #efefef;
+	margin-top: 10px;
+	padding: 10px 0px 5px 0px;}
+.feature, .article {
+	height: 10em;}
+li {
+	display: inline;
+	padding: 5px;
+	margin-right: 10px;}

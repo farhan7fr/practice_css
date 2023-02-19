@@ -1,0 +1,53 @@
+body {
+	font-family: Times, Georgia, serif;
+	font-size: 1.25em;
+    width: 750px;
+	background-image: url("../images/tulip.gif");
+	background-position: 50% 25%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;}
+h1, h2 {
+	font-family: Impact, fantasy;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+	word-spacing: .25em;
+	padding: 10px;
+    text-decoration: underline blue;}
+h1 {
+	text-align: center;}
+p {
+	line-height: 1.6em;
+	width: 100%;
+	background-image: url("../images/pattern.gif");}
+.para1 {
+	background-color: #efefef;
+	background-image: url("../images/pattern.gif");
+	min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  	  	
+	/*background-repeat: repeat-x;*/}
+.para2 {
+	background-image: url("../images/pattern.gif");
+	background-repeat: repeat-y;}
+.para3 {
+	background-color: #665544;
+	background-image: url("../images/pattern.gif");
+	background-position: center center;
+	background-repeat: no-repeat;}
+.para4 {
+	background-image: url("../images/pattern.gif");
+	background-position: left bottom;
+	background-repeat: repeat;}
+.para5 {
+	background-color: #efefef;
+	background-image: url("../images/pattern.gif");
+	background-position: 50% 75%;
+	background-repeat: no-repeat;}
+.para6 {
+	background-color: #efefef;
+	background-image: url("../images/magnolia-small.jpg");
+	background-position:50% 50%;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;}

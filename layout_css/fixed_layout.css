@@ -1,0 +1,29 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("../../fonts/chunkfive.eot") format("eot"),
+	     url("../../fonts/chunkfive.eot?#iefix") format("embedded-opentype"),
+	     url("../../fonts/chunkfive.woff") format("woff"),
+	     url("../../fonts/chunkfive.svg") format("svg");}
+body {
+	font-family: ChunkFiveRegular, serif;
+	font-size: 16px;
+	width: 960px;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	margin: 0 auto;}
+.content {
+	overflow: auto;}
+.nav, .feature, .footer {
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px;}
+.column1, .column2, .column3 {
+	background-color: #efefef;
+	width: 300px;
+	float: left;
+	margin: 10px;}
+li {
+	display: inline;
+	padding: 5px;
+    margin-right: 10px;}

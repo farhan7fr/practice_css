@@ -1,0 +1,61 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("fonts/chunkfive.eot") format("eot"),
+	     url("fonts/chunkfive.eot?#iefix") format("embedded-opentype"),
+	     url("fonts/chunkfive.woff") format("woff"),
+	     url("fonts/chunkfive.svg") format("svg");}
+body {
+	font-famimly: ChunkFiveRegular, serif;
+	font-size: 125%;
+	background-color: hsl(0, 100%, 100%);
+	opacity: 1.0;
+	color: hsla(0, 100%, 0%, 1.0);}
+/*label {
+	font-family: Arial, Verdana, sans-serif;
+	width: 100px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+    margin-bottom: 15px}*/
+input {
+	width: 150px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000;
+	margin-bottom: 15px;
+	padding: 10px;
+    }
+input[type="submit"] {
+	/*float: right;*/
+	text-align: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+
+    /*outline: none;*/}
+input:focus {
+	background-color: white;
+	border: 1px solid blue;
+	outline: none;}
+input[type="submit"]:hover {
+	background-color: lightgreen;
+	/*border: 1px solid blue;*/
+	outline: 4px dotted green;
+    outline-offset: 10px;} 
+fieldset {
+    width: 300px;
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;}
+legend {
+	background-color: blue;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	text-align: left;
+	word-spacing: 0.5;
+	text-transform: uppercase;
+	letter-spacing: 0.25px;
+	padding: 10px 15px;}

@@ -1,0 +1,77 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("fonts/chunkfive.eot") format("eot"),
+	     url("fonts/chunkfive.eot?#iefix") format("embedded-opentype"),
+	     url("fonts/chunkfive.woff") format("woff"),
+	     url("fonts/chunkfive.ttf") format("truetype"),
+	     url("fonts/chunkfive.svg") format("svg");}
+body {
+	font-family: ChunkFiveRegular, serif;
+    font-size: 125%}
+table {
+	font-family: Arial, Verdana, sans-serif;
+	width: 600px;
+	/*height: 500px;*/
+	margin: auto auto;}
+thead tr {
+	/*border-top: 10px solid #000;
+    border-bottom: 10px solid #000;*/
+    background-color: darkgray;
+    /*margin-bottom:100px;*/}
+thead td, thead th {
+	font-family: Impact, Fantasy;
+    border-right: 5px solid lightgray;
+    border-top: 10px solid #000;
+    border-bottom: 10px solid #000;
+    text-transform: uppercase;
+    letter-spacing: 0.25%;
+    /*width: 100px;
+    height: 50px;*/
+    margin: 0px;
+    text-align: center;}
+thead th:first-child, thead td:first-child {
+	border-top-left-radius: 10px 5px;
+    /*border-spacing: 15px 10px;
+    border-collapse: separate;*/}
+thead th:last-child, thead td:last-child {
+	border-top-right-radius: 10px 5px;}
+tbody td, tbody th {
+	width: 100px;
+	height: 50px;
+	border-right: 5px solid lightgray;
+	border-bottom: 5px solid lightgray;
+	padding: 5px;
+	margin:0;
+	text-align: right;
+    empty-cells: hide;}
+tfoot tr {
+	/*border-top: 10px solid #000;
+	border-bottom: 10px solid #000;*/
+	background-color: lightgray;
+    /*margin-top: 10px;*/}
+tfoot th, tfoot td {
+	border-right: 5px solid lightgray;
+	border-bottom: 10px solid #000;
+	border-top: 5px solid lightgray;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    empty-cells: show;
+    border-collapse: collapse;}
+tfoot td:last-child, th:last-child {
+	border-bottom-right-radius: 10px 5px;}
+tfoot td:first-child, tfoot th:first-child {
+	border-bottom-left-radius: 10px 5px;}
+tr {
+	background-color: lightblue;}
+tr.even {
+	background-color: lightgreen;}
+tr:hover {
+	background-color: darkblue;}
+tr.even:hover {
+	background-color: darkgreen;}	
+tfoot tr:hover {
+	background-color: gray;}
+thead tr:hover {
+	background-color: gray;}

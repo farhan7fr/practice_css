@@ -1,0 +1,28 @@
+/* Styling typefaces */
+
+@font-face {
+	font-family: Quicksand_Book_webfont;
+	src: url("fonts/Quicksand_Book_webfont.eot") format("embedded-opentype"),
+	     url("fonts/Quicksand_Book_webfont.woff") format("woff"),
+	     url("fonts/Quicksand_Book_webfont.ttf") format("truetype"),
+	     url("fonts/Quicksand_Book_webfont.svg") format("svg");}
+body {
+	font-family: Quicksand_Book_webfont;
+	font-size: 125%;}
+p {
+	font-size: 1em;}
+.intro {
+	font-size: 1.25em;}
+h1 {
+	font-size: 1.75em;}
+h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	word-spacing: .5em;
+	margin-bottom: 0px;
+	text-decoration: underline blue;
+	/*border-bottom: 1px solid blue;*/}
+h3 {
+	font-size: 1.25em;
+    margin: 0px;}

@@ -1,0 +1,15 @@
+/* Site layout */
+
+body {
+	text-align: center;
+	background-color: hsl(240, 100%, 100%);
+	color: #000;}
+#page {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 20px;
+	border: 2px solid deepskyblue;}
+h3 {
+	color: blue;}

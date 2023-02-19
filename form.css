@@ -1,0 +1,66 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("fonts/chunkfive.eot") format("eot"),
+	     url("fonts/chunkfive.eot?#iefix") format("embedded-opentype"),
+	     url("font/chunkfive.woff") format("woff"),
+	     url("fonts/chunkfive.svg") format("svg");}
+body {
+	font-family: ChunkFiveRegular;
+	font-size: 100%;}
+
+.title {
+	font-family: Arial, Verdana, sans-serif;
+	width: 100px;
+	float: left;
+	text-align: right;
+    padding-right: 10px;}
+input {
+	font-size: 125%;
+	color: #000;
+	background-color: #fff;
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 5px 5px 5px 25px;
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+    /*display: block;*/
+    margin-bottom: 10px;}
+div#radio input {
+	float: none;}
+input#username {
+	background-image: url("images/star.png");}
+input#email {
+	background-image: url("images/email.png");}
+input:hover {
+    border: 2px solid lightblue;}
+input:focus {
+	border: 5px solid blue;}
+#submit {
+	text-align: right;}
+input[type="submit"] {
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	background-color: lightgray;
+	text-shadow: 0px 1px 1px #fff;
+	border-bottom: 2px solid darkgreen;
+	background: webkit-gradient(linear, left top, left bottom, from(lightblue), to(darkblue));
+	background: -moz-linear-gradient(top, lightblue, darkblue);
+	background: -o-linear-gradient(top, lightblue, darkblue);
+	background: -ms-linear-gradient(top, lightblue, darkblue);}
+input[type="submit"]:hover {
+	color: #whitesmoke;
+	background-color: darkgray;
+	border: 1px solid #000;
+	border-top: 2px solid darkgreen;
+	background: -webkit-gradient(linear, left top, left bottom, from(lightgreen), to(darkgreen));
+	background: -moz-linear-gradient(top, lightgreen, darkgreen);
+	background: -o-linear-gradient(top, lightgreen, darkgreen);
+	background: -ms-linear-gradient(top, lightgreen, darkgreen);
+    cursor: pointer;}
+div {
+	font-family: "Courier New", monospace;
+	width: 400px;
+	margin: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;}

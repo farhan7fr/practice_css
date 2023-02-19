@@ -1,0 +1,48 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("fonts/chunkfive.eot") format("eot"),
+	     url("fonts/chunkfive.eot?#iefix") format("embedde-opentype"),
+	     url("fonts/chunkfive.woff") format("woff"),
+	     url("fonts/chunkfive.svg") format("svg");}
+body {
+	font-family: ChunkFiveRegular, serif;
+	font-size: 125%;}
+li {
+	margin-bottom: 10px;
+	line-height: 1.5em;}
+ul {
+	font-family: "Monotype Corsiva" cursive;
+	width: 75%;
+	margin: 10px auto 10px auto;
+	list-style-type: none;
+	list-style-position: outside;
+	color: hsl(240, 100%, 100%);
+	opacity: 1.0;
+	background-color: rgb(0, 0, 255);
+    overflow: hidden;
+    padding: 5px;}
+ul#ul1 {
+	font-family: "Courier New", Courier, monospace;
+	list-style-image: url("images/dots.gif");
+	list-style-position: inside;
+    border: 5px groove #fff;}
+ol {
+	font-family: Arial, Verdana, sans-serif;
+	color: white;	
+	color: hsla(120, 100%, 100%, 1.0);
+	background-color: rgba(0, 255, 0, 1.0);
+	background-color: rgb(0, 255, 0);
+	list-style: upper-roman outside;
+    overflow: hidden;
+    /*padding: 5px;*/
+    /*margin: 10px auto 10px auto;*/}
+ol#ol1 {
+	font-family: Impact, fantasy;
+	list-style: url("images/dots.gif") outside;
+    border: 5px ridge #fff;}
+ol#ol2 {
+	list-style: decimal-leading-zero outside;}
+dl {
+	background-color: red;
+	color: white;
+	list-style: upper-alpha outside;}

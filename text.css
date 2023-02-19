@@ -1,0 +1,81 @@
+@font-face {
+	font-family: ChunkFiveRegular;
+	src: url("fonts/chunkfive.eot");
+	src: url("fonts/chunkfive.eot?#iefix") format("embedded-opentype"),
+	     url("fonts/chunkfive.woff") format("woff"),
+	     url("fonts/chunkfive.ttf") format("truetype"),
+	     url("fonts/chunkfive.svg") format("svg");}
+body {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 125%;
+	color: rgba(255, 255, 255, 1.0);
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 1.0);
+	background-color: rgb(0, 0, 0);}
+h1, h2 {
+	font-family: ChunkFiveRegular, Georgia, serif;
+	/*font-size: inherit;*/
+	/*font-size: 100%;*/
+	font-style: italic;
+	font-weight: normal;
+	font-stretch: regular;
+	color: hsla(0, 100%, 100%, 0.0);
+	opacity: 1.0;
+	color: hsl(120, 0%, 100%);
+	background-color: hsla(0, 100%, 50%, 0.0);
+	background-color: hsl(0, 100%, 50%);
+	opacity: 1.0;
+    text-align: center;
+    text-transform: uppercase;
+	letter-spacing: 0.25em;
+	word-spacing: 0.5em;
+    text-shadow: -2px -2px 2px #ffffff;}
+h2 {
+	font-family: Impact, fantasy;
+	/*font-size: 1.0em;*/	
+	color: hsla(120, 100%, 100%, 0.0);
+	color: hsl(0, 100%, 100%);
+	opacity: 1.0;
+	background-color: rgba(0, 0, 255, 1.0);
+	background-color: rgb(0, 0, 255);
+	text-transform: capitalize;
+	text-decoration: underline;
+	letter-spacing: 0.25em;
+	word-spacing: 0.5em;
+	vertical-align: middle;
+	text-align: left;
+	text-indent: 32px;
+	text-shadow: 2px 2px 0px #000000;}
+p {
+	font-family: "Courier New" monospace;
+	font-size: 1.0em;
+	/*font-size: 16px;*/
+	/*fony-size: 100%;*/
+	line-height: 1.5em;
+	word-spacing: 0.125em;
+	text-align: justify;
+	text-indent: 2.0em;
+	vertical-align: top;}
+p:first-letter {
+	font-size: 1.5em;}
+p:first-line {
+	font-weight: bold;}
+#d4 {
+	color: black;
+	background-color: white;}
+a:link {
+	color: deeppink;
+	text-decoration: none;}
+a:visited {
+	color: black;}
+a:hover {
+	color: green;
+	text-decoration: line-through;}
+a:active {
+	color: blue;
+	text-decoration: underline;
+}
+div#d1 > p:focus {
+	color: red;}
+marquee {
+	text-decoration: line-through;}

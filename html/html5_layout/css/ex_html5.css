@@ -1,0 +1,96 @@
+@font-face {
+	font-family: Quicksand-Book-webfont;
+	src: url("fonts/Quicksand_Book_webfont.eot") format("eot"),
+	     url("fonts/Quicksand_Book_webfont.woff") format("woff"),
+	     url("fonts/Quicksand_Book_webfont.ttf") format("ttf"),
+	     url("fonts/Quicksand_Book_webfont.svg") format("svg");}
+header, nav, section, article, aside, footer, figure, figcaption, hgroup {
+	display: block;}
+body {
+	font-family: Georgia, Quicksand-Book-webfont, Times, serif;
+	/*font-size: 1.25em;*/
+	color: #666666;
+	margin: 0px;
+	line-height: 1.4em;
+	background: #f9f8f6 url("../images/dark-wood.jpg") center;}
+.wrapper {
+	width: 940px;
+	margin: 20px auto;
+	border: 2px solid #000;
+    background-color: #fff;}
+header {
+	background-image: url("../images/header.jpg");
+    /*background-repeat: no-repeat;*/
+    height: 160px;}
+nav, footer {
+	clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;}
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;}
+h1, h2, h3 {
+	font-weight: normal;}
+h1 {
+	text-indent: -9999px;
+	width: 940px;
+	height: 130px;
+	margin:0px;}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;}
+
+nav li {
+	display: inline;
+	margin-right: 40px;}
+a {
+    color: #de6581;
+    /*cursor: pointer;*/
+    text-decoration: none;}	
+nav li a {
+    color: #ffffff;}
+nav li a:hover, nav li a.current {
+	color: #000;}
+.recipes {
+	width: 659px;
+	float: left;
+	border-right: 1px solid #eee;}	
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;}
+hgroup {
+	margin-top: 40px;}
+figure {
+	width:290px;
+    height: 220px;
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;}
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+h2 {
+    margin: 10px 0px 5px 0px;
+    display: block;
+    padding: 0px;}
+h3 {
+	display: block;
+    margin: 0px 0px 10px 0px;
+    color: #de6581;} 
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;}       
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;}
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;}
+aside section a:hover {
+	color: #985d6a;
+	background-color: #efefef;}     
